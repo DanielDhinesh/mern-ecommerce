@@ -34,7 +34,7 @@ services:
       - app-network
 
   mongo:
-    image: mongo:latest
+    image: mongo:7.0
     container_name: mongodb
     command: mongod --quiet --logpath /dev/null
     ports:
